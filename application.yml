@@ -1,0 +1,9 @@
+general:
+  kafka-topic: test-topic # Temporary topic name
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: test-group
+    producer:
+      bootstrap-servers: localhost:9092
